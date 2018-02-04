@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600');
+
+body{
+  background-color:  #778899;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1{
+  font-size: 4.5em;
+}
+
+.title{
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.search-container{
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.articles-div{
+  text-align: justify;
+  margin-top: 20px;
+  padding: 3px 15px 8px 10px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.articles-div a{
+  text-decoration: none;
+  color: #000;
+}
+
+.articles-div:hover{
+  border: 4px #ededed solid;
+}
+
+input[name=search]{
+  background: #ededed url(http://res.cloudinary.com/vitorcaetano/image/upload/v1501203459/ic_search_black_24dp_1x_k0qquu.png) no-repeat 6px center;
+  padding: 7px 8px 7px 29px;
+  width: 11.5%;
+  border:  2px #dadada solid;
+  border-radius: 12em;
+  overflow: hidden;
+  margin: 0;
+
+  transition: all .3s;
+}
+
+input[name=search]:focus{
+  border: #cacaca;
+  padding-left: 30px;
+  width: 90%;
+  font-size: 1.2em;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+input[name=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+    -moz-appearance: searchfield-cancel-button;
+}
+
+.button{
+  display: none;
+  margin-left: 5px;
+  background: #ededed url(http://res.cloudinary.com/vitorcaetano/image/upload/v1501425150/ic_keyboard_return_black_24dp_1x_xyjhfd.png) no-repeat 6px center;
+  padding: 2px 8px 12px 29px;
+  border: 2px #dadada solid;
+  border-radius: 12em;
+}
+
+.button:hover{
+  border: 3px #a6a6a6 solid;
+}
+
+a[role=button]{
+  margin-top: 10px;
+  margin-left: 8px;
+  background: #ededed;
+  padding: 4px 7px 5px 7px;
+  border: 3px #dadada solid;
+  border-radius: 5em;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000;
+
+  display: inline-block;
+}
+
+a[role=button]:hover{
+  border: 3px #b9b9b9 solid;
+  text-decoration: none;
+  color: #000;
+}
+
+a[role=button]:active{
+  border: 3px #a6a6a6 solid;
+  text-decoration: none;
+  color: #000;
+}
